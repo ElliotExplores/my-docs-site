@@ -3,18 +3,18 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
+	integrations: [ 
 		starlight({
 			title: 'My Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ElliotExplores/my-docs-site',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'JavaScript',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: "Variable Hoisting", link: '/javascript/variable-hoisting/' },
 					],
 				},
 				{
